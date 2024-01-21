@@ -1,0 +1,91 @@
+BACKUP ~mnkoverhaul/backup~
+AUTHOR ~henrywinklercoveredinbees@hotmail.com~
+
+LANGUAGE ~English~ ~english~ ~mnkoverhaul/lang/english/mnkoverhaul.tra~
+
+BEGIN @1 // Monk High Level Abilities
+COPY ~mnkoverhaul/spl/kish1.spl~  	~override/kish1.spl~ 	SAY NAME1 @5 SAY 80 @6
+COPY ~mnkoverhaul/spl/kish2.spl~   	~override/kish2.spl~ 	SAY NAME1 @7 SAY 80 @8
+COPY ~mnkoverhaul/spl/kish3.spl~   	~override/kish3.spl~ 	SAY NAME1 @9 SAY 80 @10
+COPY ~mnkoverhaul/spl/kish4.spl~   	~override/kish4.spl~ 	SAY NAME1 @11 SAY 80 @12
+COPY ~mnkoverhaul/spl/kish5.spl~   	~override/kish5.spl~ 	SAY NAME1 @13 SAY 80 @14
+COPY ~mnkoverhaul/spl/kish6.spl~   	~override/kish6.spl~ 	SAY NAME1 @15 SAY 80 @16
+COPY ~mnkoverhaul/spl/kish7.spl~   	~override/kish7.spl~ 	SAY NAME1 @17 SAY 80 @18
+COPY ~mnkoverhaul/spl/kish8.spl~   	~override/kish8.spl~ 	SAY NAME1 @19 SAY 80 @20
+COPY ~mnkoverhaul/spl/kish9.spl~   	~override/kish9.spl~ 	SAY NAME1 @21 SAY 80 @22
+COPY ~mnkoverhaul/spl/kish12.spl~  	~override/kish12.spl~ 	SAY NAME1 @30 SAY 80 @31
+COPY ~mnkoverhaul/spl/spcl811.spl~ 	~override/spcl811.spl~ 	SAY 80 @23
+COPY ~mnkoverhaul/spl/spcl820.spl~ 	~override/spcl820.spl~ 	SAY 80 @24
+COPY ~mnkoverhaul/2da/LUMO0.2da~ 	~override/LUMO0.2da~
+COPY ~mnkoverhaul/2da/LUMO1.2da~ 	~override/LUMO1.2da~
+COPY ~mnkoverhaul/2da/LUMO2.2da~ 	~override/LUMO2.2da~
+COPY ~mnkoverhaul/bam~				~override~
+COPY_EXISTING ~spcl811.bam~ 		~override/spcl811b.bam~
+COPY_EXISTING ~spcl820.bam~ 		~override/spcl820b.bam~
+
+BEGIN @3 // 3:+1 9:+2 12:+3 15:+4 25:+5
+SUBCOMPONENT @2 // Monk Fist Overhaul
+COPY ~mnkoverhaul\itm\1\MFIST2.itm~		~override/MFIST2.itm~	SAY NAME2 @25
+COPY ~mnkoverhaul\itm\1\MFIST3.itm~		~override/MFIST3.itm~	SAY NAME2 @25
+COPY ~mnkoverhaul\itm\1\MFIST4.itm~		~override/MFIST4.itm~	SAY NAME2 @26
+COPY ~mnkoverhaul\itm\1\MFIST5.itm~		~override/MFIST5.itm~	SAY NAME2 @27
+COPY ~mnkoverhaul\itm\1\MFIST6.itm~		~override/MFIST6.itm~	SAY NAME2 @28
+COPY ~mnkoverhaul\itm\1\MFIST7.itm~		~override/MFIST7.itm~	SAY NAME2 @28
+COPY ~mnkoverhaul\itm\1\MFIST8.itm~		~override/MFIST8.itm~	SAY NAME2 @29
+
+BEGIN @4 // 5:+1 10:+2 15:+3 20:+4 25:+5 (Requires EE)
+SUBCOMPONENT @2 // Monk Fist Overhaul
+REQUIRE_PREDICATE FILE_EXISTS_IN_GAME 	~MONKFIST.2da~ ~Requires Enhanced Edition~
+COPY ~mnkoverhaul\2da\MONKFIST.2da~  	~override/MONKFIST.2da~
+COPY ~mnkoverhaul\itm\2\MFIST2A.itm~ 	~override/MFIST2A.itm~	SAY NAME2 @25
+COPY ~mnkoverhaul\itm\2\MFIST3.itm~	 	~override/MFIST3.itm~	SAY NAME2 @26
+COPY ~mnkoverhaul\itm\2\MFIST4A.itm~ 	~override/MFIST4A.itm~	SAY NAME2 @27
+COPY ~mnkoverhaul\itm\2\MFIST7A.itm~ 	~override/MFIST7A.itm~	SAY NAME2 @28
+COPY ~mnkoverhaul\itm\2\MFIST8.itm~	 	~override/MFIST8.itm~	SAY NAME2 @29
+
+BEGIN @41 // Monks use staffs
+REQUIRE_PREDICATE NOT GAME_IS ~iwd2 pst pstee~ @999
+
+COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
+    READ_BYTE  0x31 prof ELSE 0
+    READ_SHORT 0x1c type
+    READ_LONG 0x1e usability
+    PATCH_IF (((prof = 102) AND (type = 26) AND (usability & BIT29) = BIT29)) BEGIN 
+        WRITE_LONG 0x1e (THIS BAND `BIT29) // remove monk flag
+    END
+BUT_ONLY
+
+// Add proffeciency table for monks
+ACTION_IF FILE_EXISTS_IN_GAME ~weapprof.2da~ THEN BEGIN
+    ACTION_CLEAR_ARRAY style_kits
+    OUTER_SET $style_kits(DARK_MOON) = 20
+    OUTER_SET $style_kits(SUN_SOUL)  = 20
+    OUTER_SET $style_kits(MONK)      = 20
+    COPY_EXISTING ~kitlist.2da~ ~override~
+    SET col_check = 10
+    COUNT_2DA_ROWS col_check rows
+    FOR (row = 1 ; row < rows ; ++row) BEGIN
+        READ_2DA_ENTRY row 8 col_check class
+        PATCH_IF ((class = 36) OR (class = 37)) BEGIN
+            READ_2DA_ENTRY row 1 col_check kit
+            SET $style_kits("%kit%") = class
+        END
+    END
+    BUT_ONLY
+
+    COPY_EXISTING ~weapprof.2da~ ~override~
+    REPLACE_TEXTUALLY ~\(ID[ %TAB%]+NAME_REF\)~ ~DELETE_ME \1~ // adding column to header column
+    COUNT_2DA_COLS col_count
+    FOR (col = 4 ; col < col_count ; ++col) BEGIN
+        READ_2DA_ENTRY 0 col col_count kit
+        PATCH_IF VARIABLE_IS_SET $style_kits("%kit%") BEGIN
+            READ_2DA_ENTRY 23 col col_count staff
+            PATCH_IF !staff BEGIN // only if 0 pips
+                SET_2DA_ENTRY 23 col col_count 1
+            END
+        END
+    END
+    REPLACE_TEXTUALLY ~DELETE_ME~ ~~ // removing it
+    PRETTY_PRINT_2DA
+    BUT_ONLY
+END

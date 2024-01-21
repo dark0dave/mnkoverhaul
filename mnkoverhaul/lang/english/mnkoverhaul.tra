@@ -1,0 +1,125 @@
+@999 = ~Can't install for iwd2 or pst or pstee~
+@1 = ~Monk High Level Abilities by Kish~
+@2 = ~Monk Fist Overhaul~
+@3 = ~3:+1 9:+2 12:+3 15:+4 25:+5~
+@4 = ~5:+1 10:+2 15:+3 20:+4 25:+5 (Requires EE)~
+@41 = ~Monks use staffs~
+@5= ~Shadowless Kick~
+@6= ~Shadowless Kick
+This kick throws the target back, knocks the target unconscious, and deals 4d8 points of damage.~
+@7= ~Tiger Strike~
+@8= ~Tiger Strike
+A more powerful form of Shadowless Kick, this power ensures every blow for the next round is a critical hit.  In addition, every blow for the next two rounds throws the target back and knocks the target unconscious.
+Prerequisite: Shadowless Kick.~
+@9= ~Dragon Fist~
+@10= ~Dragon Fist
+By channeling ki energy, the monk becomes briefly able to interact physically with the essence of magic.  With a blow, the monk strips away magical protections from the target.  This automatically dispels Armor, Shield, Resist Fear, Ghost Armor, Protection from Cold, Protection from Fire, Protection from Normal Missiles, Fire Shield, Spirit Armor, Stoneskin, Protection from Acid, Protection from Electricity, Protection from Normal Weapons, Protection from Magic Energy, Protection from Magical Weapons, Mantle, Protection from the Elements, Improved Mantle, Protection from Energy, and Absolute Immunity, as well as priestly and natural versions of the same spells.  However, it remains ineffective against certain creatures whose affinity for magic is great, such as liches and rakshasa.  Also, Time Stop prevents magical energy from being altered for the duration, shielding mages from this ability until the Time Stop ends.~
+@11= ~Faster Than The Eye~
+@12= ~Faster Than The Eye
+By concentrating briefly on another area within 4000 feet, the monk can instantly transport herself there.
+Prerequisite: Feet of the Wind.~
+@13= ~Flip Resistances~
+@14= ~Flip Resistances
+The monk's magic resistance converts into physical damage resistance for a number of rounds equal to twice the monk's level.  The monk also becomes immune to backstab for the same duration.~
+@15= ~Solar Stance~
+@16= ~Solar Stance
+Solar Stance renders nearby enemies more vulnerable, reducing the saving throws of any within 60 feet of the monk by 4. It creates a cloud of glittering golden particles that fill the air for twenty feet around the monk, revealing invisible creatures.  All enemies in the cloud must roll a successful saving throw vs. spell or be blinded (-4 to attack rolls, saving throws, and Armor Class) until the dust fades, after 4 rounds.  Also, a blast of fire emanates from the monk, scorching and throwing back everyone in a 30 foot radius, though the stance protects the monk from the flames.
+Prerequisite: Tiger Strike.~
+@17= ~Lunar Stance~
+@18= ~Lunar Stance
+A monk who strikes this stance gains a +5 bonus to Saving Throws vs. Death, a +2 bonus to luck, and becomes immune to Slay, Imprisonment, Petrification, Level Drain, Disintegrate, and Time Stop.  The duration of this power is four rounds.
+Prerequisite: Solar Stance.~
+@19= ~Shadow Stance~
+@20= ~Shadow Stance
+This stance causes the monk to instantly become both invisible, as per the spell Improved Invisibility, and immune to divination spells such as True Seeing.  This power lasts for 23 rounds.
+Prerequisite: Lunar Stance.~
+@21= ~Feet of the Wind~
+@22= ~Feet of the Wind
+Each time this ability is chosen, it greatly and permanently increases the monk's movement rate.~
+@23= ~Stunning Blow
+The monk has one more use of the Stunning Blow ability per day.~
+@24= ~Quivering Palm
+The monk has one more use of the Quivering Palm ability per day.~
+@25= ~Fist +1~
+@26= ~Fist +2~
+@27= ~Fist +3~
+@28= ~Fist +4~
+@29= ~Fist +5~
+@30= ~Second Wind~
+@31= ~Second Wind
+By concentrating briefly, the monk can shrug off even the worst of wounds, once per day.  The effect of this power is to fully heal the monk instantly.
+Prerequisite: Flip Resistances.~
+@32= ~MONK: Monks are warriors who pursue perfection through contemplation as well as action. They are versatile fighters, especially skilled in combat without weapons or armor. Though Monks cannot cast spells, they have a unique magic of their own: they channel a subtle energy, called ki, which allows them to perform amazing feats. The Monk's best known feat is their ability to stun an opponent with an unarmed blow.
+
+CLASS FEATURES:
+
+� May not wear any armor.
+� May only use weapons available to the Thief class (except two-handed).
+� May only become Proficient (one slot) in any weapon class.
+� May only become Proficient (one slot) in Single-Weapon Style and may not put slots into any other style.
+� Moves 2 points faster than other characters. Movement rate further improves by 1 every 5 levels.
+� May make 1 unarmed attack per round. An additional 1/2 attack per round is gained every 3 levels. Damage dealt by unarmed attacks increases with level as follows:
+  Level 1-2: 1d6
+  Level 3-5: 1d8
+  Level 6-8: 1d10
+  Level 9-14: 1d12
+  Level 15+: 1d20
+� At level 3, unarmed attacks are treated as a +1 magical weapon and gain a +1 bonus to hit and damage rolls. This enchantment improves to +2 at level 9, +3 at level 12, +4 at level 15 and +5 at level 25. 
+� Receives a +2 bonus to Saving Throws vs. Spell.
+� Deflect Missiles: +1 bonus to AC vs. missile attacks every 3 levels.
+� Starts with an Armor Class of 9 at 1st level and gains an additional +1 bonus every 2 levels.
+� May use Stunning Blow ability once per day every 4 levels. 
+
+STUNNING BLOW: All successful attacks within the next round force the victim to save vs. Spell or be stunned. This special ability automatically modifies normal attacks; no targeting needs to be done.
+
+� 5th level: Becomes immune to all diseases and cannot be slowed or hasted.
+� 7th level: May use Lay On Hands ability on <PRO_HIMHER>self to heal 2 Hit Points per level.
+� 8th level: Gains a -1 bonus to Speed Factor.
+� 9th level: Gains a +1 bonus to all Saving Throws and becomes immune to Charm.
+� 11th level: Becomes immune to poison.
+� 12th level: Gains another -1 bonus to Speed Factor.
+� 13th level: May use the Quivering Palm ability once per day.
+
+QUIVERING PALM: The next successful attack forces the opponent to save vs. Spell or die. This special ability automatically modifies normal attacks; no targeting needs to be done.
+
+� 14th level: Gains 3% Magic Resistance per level (starting with 42% at 14th level).
+� 20th level: Becomes immune to non-magical weapons.
+� Alignment restricted to lawful.
+� Hit Die: d8~
+@33= ~MONK: Monks are warriors who pursue perfection through contemplation as well as action. They are versatile fighters, especially skilled in combat without weapons or armor. Though Monks cannot cast spells, they have a unique magic of their own: they channel a subtle energy, called ki, which allows them to perform amazing feats. The Monk's best known feat is their ability to stun an opponent with an unarmed blow.
+
+CLASS FEATURES:
+
+� May not wear any armor.
+� May only use weapons available to the Thief class (except two-handed).
+� May only become Proficient (one slot) in any weapon class.
+� May only become Proficient (one slot) in Single-Weapon Style and may not put slots into any other style.
+� Moves 2 points faster than other characters. Movement rate further improves by 1 every 5 levels.
+� May make 1 unarmed attack per round. An additional 1/2 attack per round is gained every 3 levels. Damage dealt by unarmed attacks increases with level as follows:
+  Level 1-2: 1d6
+  Level 3-5: 1d8
+  Level 6-8: 1d10
+  Level 9-14: 1d12
+  Level 15+: 1d20
+� At level 5, unarmed attacks are treated as a +1 magical weapon and gain a +1 bonus to hit and damage rolls. This enchantment improves +1 every 5 levels until +5 at level 25. 
+� Receives a +2 bonus to Saving Throws vs. Spell.
+� Deflect Missiles: +1 bonus to AC vs. missile attacks every 3 levels.
+� Starts with an Armor Class of 9 at 1st level and gains an additional +1 bonus every 2 levels.
+� May use Stunning Blow ability once per day every 4 levels. 
+
+STUNNING BLOW: All successful attacks within the next round force the victim to save vs. Spell or be stunned. This special ability automatically modifies normal attacks; no targeting needs to be done.
+
+� 5th level: Becomes immune to all diseases and cannot be slowed or hasted.
+� 7th level: May use Lay On Hands ability on <PRO_HIMHER>self to heal 2 Hit Points per level.
+� 8th level: Gains a -1 bonus to Speed Factor.
+� 9th level: Gains a +1 bonus to all Saving Throws and becomes immune to Charm.
+� 11th level: Becomes immune to poison.
+� 12th level: Gains another -1 bonus to Speed Factor.
+� 13th level: May use the Quivering Palm ability once per day.
+
+QUIVERING PALM: The next successful attack forces the opponent to save vs. Spell or die. This special ability automatically modifies normal attacks; no targeting needs to be done.
+
+� 14th level: Gains 3% Magic Resistance per level (starting with 42% at 14th level).
+� 20th level: Becomes immune to non-magical weapons.
+� Alignment restricted to lawful.
+� Hit Die: d8~
