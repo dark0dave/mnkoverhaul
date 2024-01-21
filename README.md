@@ -2,7 +2,7 @@
 
 ## Monk High Level Abilites by Kish
 
-This component was created by Kish for the Oversight mod (http://www.gibberlings3.net/oversight/) and ever-so-slightly modified by me for BG2EE compatability.
+This component was created by Kish for the Oversight mod (http://www.gibberlings3.net/oversight/) and ever-so-slightly modified by [prismo](https://forums.beamdog.com/profile/Prismo) for BG2EE compatability. And then again by [dark0dave](https:://github.com/dark0dave) adding some more features.
 
 "In unmodded Throne of Bhaal, monks have access to the same pool of High Level Abilities as fighters. This seems lame. This component will give monks their own set of High Level Abilities instead, most of which should be quite familiar to anyone who has played through Throne of Bhaal before.
 
@@ -66,3 +66,6 @@ Option 2:	+1 fists at 5th level
 			+5 fists at 25th level
 			
 This option I feel is more balanced between faster progression and what vanilla monks get. This option requires the Enhanced Edition.
+
+Monks use staffs
+This is repeated everywhere I know, but I'd like all the monk changes to be in the same place. This allows for monks to use staves and put one point into their proficiency.

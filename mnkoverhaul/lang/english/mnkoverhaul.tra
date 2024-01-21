@@ -3,53 +3,54 @@
 @2 = ~Monk Fist Overhaul~
 @3 = ~3:+1 9:+2 12:+3 15:+4 25:+5~
 @4 = ~5:+1 10:+2 15:+3 20:+4 25:+5 (Requires EE)~
-@41 = ~Monks use staffs~
-@5= ~Shadowless Kick~
-@6= ~Shadowless Kick
+@5 = ~Monks use staffs~
+
+@101= ~Shadowless Kick~
+@102= ~Shadowless Kick
 This kick throws the target back, knocks the target unconscious, and deals 4d8 points of damage.~
-@7= ~Tiger Strike~
-@8= ~Tiger Strike
+@103= ~Tiger Strike~
+@104= ~Tiger Strike
 A more powerful form of Shadowless Kick, this power ensures every blow for the next round is a critical hit.  In addition, every blow for the next two rounds throws the target back and knocks the target unconscious.
 Prerequisite: Shadowless Kick.~
-@9= ~Dragon Fist~
-@10= ~Dragon Fist
+@105= ~Dragon Fist~
+@106= ~Dragon Fist
 By channeling ki energy, the monk becomes briefly able to interact physically with the essence of magic.  With a blow, the monk strips away magical protections from the target.  This automatically dispels Armor, Shield, Resist Fear, Ghost Armor, Protection from Cold, Protection from Fire, Protection from Normal Missiles, Fire Shield, Spirit Armor, Stoneskin, Protection from Acid, Protection from Electricity, Protection from Normal Weapons, Protection from Magic Energy, Protection from Magical Weapons, Mantle, Protection from the Elements, Improved Mantle, Protection from Energy, and Absolute Immunity, as well as priestly and natural versions of the same spells.  However, it remains ineffective against certain creatures whose affinity for magic is great, such as liches and rakshasa.  Also, Time Stop prevents magical energy from being altered for the duration, shielding mages from this ability until the Time Stop ends.~
-@11= ~Faster Than The Eye~
-@12= ~Faster Than The Eye
+@107= ~Faster Than The Eye~
+@108= ~Faster Than The Eye
 By concentrating briefly on another area within 4000 feet, the monk can instantly transport herself there.
 Prerequisite: Feet of the Wind.~
-@13= ~Flip Resistances~
-@14= ~Flip Resistances
+@109= ~Flip Resistances~
+@110= ~Flip Resistances
 The monk's magic resistance converts into physical damage resistance for a number of rounds equal to twice the monk's level.  The monk also becomes immune to backstab for the same duration.~
-@15= ~Solar Stance~
-@16= ~Solar Stance
+@111= ~Solar Stance~
+@112= ~Solar Stance
 Solar Stance renders nearby enemies more vulnerable, reducing the saving throws of any within 60 feet of the monk by 4. It creates a cloud of glittering golden particles that fill the air for twenty feet around the monk, revealing invisible creatures.  All enemies in the cloud must roll a successful saving throw vs. spell or be blinded (-4 to attack rolls, saving throws, and Armor Class) until the dust fades, after 4 rounds.  Also, a blast of fire emanates from the monk, scorching and throwing back everyone in a 30 foot radius, though the stance protects the monk from the flames.
 Prerequisite: Tiger Strike.~
-@17= ~Lunar Stance~
-@18= ~Lunar Stance
+@113= ~Lunar Stance~
+@114= ~Lunar Stance
 A monk who strikes this stance gains a +5 bonus to Saving Throws vs. Death, a +2 bonus to luck, and becomes immune to Slay, Imprisonment, Petrification, Level Drain, Disintegrate, and Time Stop.  The duration of this power is four rounds.
 Prerequisite: Solar Stance.~
-@19= ~Shadow Stance~
-@20= ~Shadow Stance
+@115= ~Shadow Stance~
+@116= ~Shadow Stance
 This stance causes the monk to instantly become both invisible, as per the spell Improved Invisibility, and immune to divination spells such as True Seeing.  This power lasts for 23 rounds.
 Prerequisite: Lunar Stance.~
-@21= ~Feet of the Wind~
-@22= ~Feet of the Wind
+@117= ~Feet of the Wind~
+@118= ~Feet of the Wind
 Each time this ability is chosen, it greatly and permanently increases the monk's movement rate.~
-@23= ~Stunning Blow
+@119= ~Stunning Blow
 The monk has one more use of the Stunning Blow ability per day.~
-@24= ~Quivering Palm
+@120= ~Quivering Palm
 The monk has one more use of the Quivering Palm ability per day.~
-@25= ~Fist +1~
-@26= ~Fist +2~
-@27= ~Fist +3~
-@28= ~Fist +4~
-@29= ~Fist +5~
-@30= ~Second Wind~
-@31= ~Second Wind
+@121= ~Fist +1~
+@122= ~Fist +2~
+@123= ~Fist +3~
+@124= ~Fist +4~
+@125= ~Fist +5~
+@126= ~Second Wind~
+@127= ~Second Wind
 By concentrating briefly, the monk can shrug off even the worst of wounds, once per day.  The effect of this power is to fully heal the monk instantly.
 Prerequisite: Flip Resistances.~
-@32= ~MONK: Monks are warriors who pursue perfection through contemplation as well as action. They are versatile fighters, especially skilled in combat without weapons or armor. Though Monks cannot cast spells, they have a unique magic of their own: they channel a subtle energy, called ki, which allows them to perform amazing feats. The Monk's best known feat is their ability to stun an opponent with an unarmed blow.
+@128= ~MONK: Monks are warriors who pursue perfection through contemplation as well as action. They are versatile fighters, especially skilled in combat without weapons or armor. Though Monks cannot cast spells, they have a unique magic of their own: they channel a subtle energy, called ki, which allows them to perform amazing feats. The Monk's best known feat is their ability to stun an opponent with an unarmed blow.
 
 CLASS FEATURES:
 
@@ -86,7 +87,7 @@ QUIVERING PALM: The next successful attack forces the opponent to save vs. Spell
 � 20th level: Becomes immune to non-magical weapons.
 � Alignment restricted to lawful.
 � Hit Die: d8~
-@33= ~MONK: Monks are warriors who pursue perfection through contemplation as well as action. They are versatile fighters, especially skilled in combat without weapons or armor. Though Monks cannot cast spells, they have a unique magic of their own: they channel a subtle energy, called ki, which allows them to perform amazing feats. The Monk's best known feat is their ability to stun an opponent with an unarmed blow.
+@129= ~MONK: Monks are warriors who pursue perfection through contemplation as well as action. They are versatile fighters, especially skilled in combat without weapons or armor. Though Monks cannot cast spells, they have a unique magic of their own: they channel a subtle energy, called ki, which allows them to perform amazing feats. The Monk's best known feat is their ability to stun an opponent with an unarmed blow.
 
 CLASS FEATURES:
 
